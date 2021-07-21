@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "968021623678",
+    "project_id": "cmsproject-e42d7",
+    "storage_bucket": "cmsproject-e42d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968021623678:android:5495df47beba1dc7be292f",
+        "android_client_info": {
+          "package_name": "com.example.cms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968021623678-3vige74g972p517scvb3h82ikt74pa88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU5cwSJLAbkmLJHMxlxKzIMINXfZtWcTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968021623678-3vige74g972p517scvb3h82ikt74pa88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

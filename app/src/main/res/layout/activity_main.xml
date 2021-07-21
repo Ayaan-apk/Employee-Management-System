@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Welcome Employee"
+        android:textColor="#FB8C00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/showproject"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/timesheet"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FB8C00"
+        android:text="TimeSheet"
+        app:layout_constraintBottom_toTopOf="@+id/logoutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/showproject"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FB8C00"
+        android:text="Show Projects"
+        app:layout_constraintBottom_toTopOf="@+id/showall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="156dp"
+        android:backgroundTint="#FB8C00"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/showall"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FB8C00"
+        android:text="Leave Status"
+        app:layout_constraintBottom_toTopOf="@+id/leavereqBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/leavereqBtn"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#FB8C00"
+        android:text="Leave Request"
+        app:layout_constraintBottom_toTopOf="@+id/Helpdesk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Helpdesk"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FB8C00"
+        android:text="helpdesk"
+        app:layout_constraintBottom_toTopOf="@+id/timesheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
